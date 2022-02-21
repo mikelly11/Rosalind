@@ -3,6 +3,7 @@ Complementing a Strand of DNA
 @author: Maia Kelly
 """
 import re
+
 data = open("DNA.txt")
 data = data.read()
 base_pairs = {"A":"T", "T":"A", "C":"G", "G":"C"}
